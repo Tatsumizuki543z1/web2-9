@@ -1,1 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>web2-9</title>
+        <script type="text/javascropt" src="https://code.jquery-3.3.1.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $("#toggle").on("click", function(){
+                    $("#target").fadeToggle("slow");
+                });
+            });
+            
+        </script>
+    </head>
+    <body>
+        <div id="target">だんだん移動していきます</div>
+        <button id="toggle">切り替え</button>
+    </body>
+</html>
 
