@@ -7,10 +7,7 @@
         <script type="text/javascript">
             $(function(){
                 $("#toggle1").on("click", function(){
-                    $("#target").toggle("2000");
-                });
-                $("toggle2").click(function(){
-                    $("#target").toggle("slow");
+                    $("#target").toggle("3000");
                 });
             });
             
@@ -18,9 +15,7 @@
     </head>
     <body>
         <div id="target">表示・非表示を繰り返します</div>
-        <p style="display: none">Good Bye</p>
         <button id="toggle1">切り替え</button>
-        <button id="toggle2">文字切り替え</button>
     </body>
 </html>
 
